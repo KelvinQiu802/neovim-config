@@ -3,6 +3,7 @@
 ## Config Files
 
 1. [lua/user/options.lua](./lua/user/options.lua): the basic vim options
+2. [lua/user/keymaps.lua](./lua/user/keymaps.lua): the custom keymaps
 
 ## Resource:
 
