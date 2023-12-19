@@ -21,6 +21,7 @@ vim.g.maplocalleader = " "
 -- Normal --
 -- Better window navigation
 -- keymap("n", "<C-k>", "<C-w>k", opts)
+-- PROBLEM: ALt(Option) + h not working
 keymap("n", "<A-h>", "<C-w>h", opts)
 keymap("n", "<A-j>", "<C-w>j", opts)
 keymap("n", "<A-k>", "<C-w>k", opts)
@@ -34,10 +35,10 @@ keymap("n", "K", "5k", opts)
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Resize with arrows
-keymap("n", "<C-UP>", ":resize +2<CR>", opts)
-keymap("n", "<C-Down>", ":resize -2<CR>", opts)
-keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
+keymap("n", "=", ":resize +2<CR>", opts)
+keymap("n", "-", ":resize -2<CR>", opts)
+keymap("n", "+", ":vertical resize -2<CR>", opts)
+keymap("n", "_", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<leader>l", ":bnext<CR>", opts)
@@ -46,6 +47,10 @@ keymap("n", "<leader>h", ":bprevious<CR>", opts)
 -- Jump to the begining or the end of a line
 keymap("n", "<S-l>", "$", opts)
 keymap("n", "<S-h>", "0", opts)
+
+-- Split Vertical & Horizontal
+keymap("n", "<leader>sv", "<C-w>v", opts)
+keymap("n", "<leader>sh", "<C-w>s", opts)
 
 -- Insert --
 -- Press jk fast to enter
