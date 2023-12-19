@@ -4,6 +4,7 @@
 
 1. [lua/user/options.lua](./lua/user/options.lua): the basic vim options
 2. [lua/user/keymaps.lua](./lua/user/keymaps.lua): the custom keymaps
+3. [lua/user/plugins.lua](./lua/user/plugins.lua): the plugins config
 
 ## Resource:
 
