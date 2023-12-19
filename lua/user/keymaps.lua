@@ -21,7 +21,6 @@ vim.g.maplocalleader = " "
 -- Normal --
 -- Better window navigation
 -- keymap("n", "<C-k>", "<C-w>k", opts)
--- PROBLEM: ALt(Option) + h not working
 keymap("n", "<A-h>", "<C-w>h", opts)
 keymap("n", "<A-j>", "<C-w>j", opts)
 keymap("n", "<A-k>", "<C-w>k", opts)
