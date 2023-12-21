@@ -6,6 +6,8 @@
 2. [lua/user/keymaps.lua](./lua/user/keymaps.lua): the custom keymaps
 3. [lua/user/plugins.lua](./lua/user/plugins.lua): the plugins config
 4. [lua/user/github-theme.lua](./lua/user/github-theme.lua): the github-theme config
+5. [lua/user/nvim-cmp.lua](./lua/user/nvim-cmp.lua): the nvim-cmp Config
+6. [lua/user/luasnip.lua](./lua/user/luasnip.lua): the LuaSnip Config
 
 ## Resource:
 
