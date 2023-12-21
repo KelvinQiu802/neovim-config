@@ -23,16 +23,23 @@ require("lazy").setup({
   },
 
   -- Auto Completion
-  "hrsh7th/nvim-cmp",
-  "hrsh7th/cmp-buffer",
-  "hrsh7th/cmp-path",
-  "hrsh7th/cmp-cmdline",
+  "hrsh7th/nvim-cmp",  -- Completion Engine
+  "hrsh7th/cmp-buffer",  -- Buffer Completion
+  "hrsh7th/cmp-path",  -- Path Completion
+  "hrsh7th/cmp-cmdline",  -- Command Completion
+  "hrsh7th/cmp-nvim-lsp",  -- LSP Completion
+  "hrsh7th/cmp-nvim-lua",  -- Vim Runtime API Cmp
 
   -- Snippet
   {
-    "L3MON4D3/LuaSnip",
+    "L3MON4D3/LuaSnip",  -- Snip Engine
     dependencies = { "rafamadriz/friendly-snippets" },
   },
   "saadparwaiz1/cmp_luasnip",
+
+  -- LSP
+  "williamboman/mason.nvim",  -- LSP Installer
+  "williamboman/mason-lspconfig.nvim",  -- Bridge
+  "neovim/nvim-lspconfig", -- LSP Base
 
 })
